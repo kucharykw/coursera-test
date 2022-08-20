@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 10px;
+  font-size: 175%;
+  text-align: center;
+}
+
+.dish {
+  background-color: lightgray;
+  float: left;
+  border: 1px solid black;
+}
+
+.description {
+  /*width: 90%;*/
+  /*margin-right: auto;*/
+  /*margin-left: auto;*/
+  padding: 15px;
+  clear: right;
+}
+
+.section-title {
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  width: 150px;
+  float: right;
+  text-align: center;
+  font-size: 125%;
+}
+
+.row {
+  width: 100%;
+}
+
+/* Large devices */
+@media (min-width:  992px) {
+  .col-lg-4 {
+    width: 33.33%;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-2 {
+    width: 50%;
+  }
+}
+
+#dish1 {
+  background-color: burlywood;
+}
+#dish2 {
+  background-color: palegreen;
+}
+#dish3 {
+  background-color: peachpuff;
+}
