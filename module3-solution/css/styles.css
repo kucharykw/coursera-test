@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	color: black;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+	background-color: azure;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+.menu-item {
+	background-color: lightgray;
+}
+
+.menu-item h2 {
+	/*margin: 20px;*/
+	padding: 20px;
+}
+
+.menu-item p {
+	margin-top: 5px;
+	padding: 30px;
+}
